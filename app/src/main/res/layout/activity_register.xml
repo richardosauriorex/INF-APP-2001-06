@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_horizontal"
+    >
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:id="@+id/Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registrar"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:fontFamily="sans-serif"
+        android:textSize="35dp"
+        android:textColor="@color/colorSecondaryText"
+        android:padding="15dp"
+        />
+
+
+    <TextView
+        android:id="@+id/Lname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre:"
+        android:paddingTop="10dp"/>
+
+    <EditText
+        android:id="@+id/Name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:padding="20dp"
+        android:drawableLeft="@android:drawable/ic_menu_sort_alphabetically"
+        android:drawableTint="@color/colorAccent"
+        android:drawablePadding="20px"/>
+
+    <TextView
+        android:id="@+id/Llast_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Apellido paterno:"
+        android:paddingTop="20dp"/>
+
+    <EditText
+        android:id="@+id/LastName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:padding="20dp"
+        android:drawableLeft="@android:drawable/ic_menu_sort_alphabetically"
+        android:drawableTint="@color/colorAccent"
+        android:drawablePadding="20px"/>
+
+    <TextView
+        android:id="@+id/Llast_m"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Appelido materno:"
+        android:paddingTop="20dp"/>
+
+    <EditText
+        android:id="@+id/LastMotherName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:padding="20dp"
+        android:drawableLeft="@android:drawable/ic_menu_sort_alphabetically"
+        android:drawableTint="@color/colorAccent"
+        android:drawablePadding="20px"/>
+
+    <TextView
+        android:id="@+id/LEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Correo electrónico:"
+        android:paddingTop="20dp"/>
+
+    <EditText
+        android:id="@+id/Email"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:padding="20dp"
+        android:drawableLeft="@android:drawable/ic_dialog_email"
+        android:drawableTint="@color/colorAccent"
+        android:drawablePadding="20px"/>
+
+    <TextView
+        android:id="@+id/Lpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contraseña:" />
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:padding="20dp"
+        android:drawableLeft="@android:drawable/ic_lock_lock"
+        android:drawablePadding="20px"/>
+    <Button
+        android:id="@+id/Send"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Registrar"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/icons"
+        android:drawableStart="@android:drawable/ic_menu_send"
+        android:drawableTint="@color/icons"
+        />
+
+</LinearLayout>
+    </ScrollView>
